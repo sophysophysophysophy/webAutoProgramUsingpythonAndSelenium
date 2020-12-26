@@ -4,7 +4,6 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 import pyperclip
 
-
 # FireFox 드라이버의 경로를 설정합니다.
 driver = webdriver.Firefox(executable_path='./geckodriver')
 

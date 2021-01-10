@@ -1,7 +1,6 @@
 from selenium import webdriver
-from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
-from pw import login
+from classNote.pw import login
 import time
 
 driver = webdriver.Chrome('./chromedriver')
